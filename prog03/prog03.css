@@ -1,0 +1,27 @@
+body {
+    background-color:beige;
+}
+
+th {
+    color: blue;
+}
+
+p.mis-parrafos {
+    color: green;
+    font-weight: bold;
+}
+
+.boton {
+    border: 1px solid red;
+}
+
+#parrafo-1 {
+    font-weight: bold;
+    font-size: 21pt; 
+}
+
+#login {
+    border: 1px solid #000000;
+    width: 480px;
+    padding: 24px;
+}
