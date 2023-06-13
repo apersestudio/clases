@@ -8,7 +8,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,800;1,600&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="prog04.css">
+        <link rel="stylesheet" href="prog04contacto.css">
 	</head>
 	<body>
         <div id="header">
@@ -16,25 +16,38 @@
         </div>
         <div id="menu">
             <a>Biografia</a>
-            <a>Galeria</a>
-            <a>contacto</a>
+            <a href="galeria.html">Galeria</a>
+            <a class="current" href="contacto.html">contacto</a>
         </div>
+
         <div id="content">
             <div id="form">
             <h1>Contacto</h1>
             <form action="/action_page.php" method="get">
+                <div class="form-group">
                 <label for="fname">Nombre:</label>
-                <br/>
                 <input type="text" id="fname" name="fname"><br><br>
-                <br/>
+                </div>
+
+                <div class="form-group">
                 <label for="lname">Apellidos:</label>
-                <br/>
                 <input type="text" id="lname" name="lname"><br><br>
-                <br/>
+                </div>
+
+                <div class="form-group">
+                <label>Asunto</label>
+                <select>
+                <option>Saludar</option>
+                <option>Programar visita</option>
+                <option>Devolucion de impuestos</option>  
+                </select><br><br> 
+                </div>  
+                
+                <div class="form-group">
                 <label for="mail">Correo electronico:</label>
-                <br/>
                 <input type="text" id="mail" name="mail"><br><br>
-                <br/>
+                </div>
+
                 <button type="button">Enviar</button>
             </div>
             </form>
