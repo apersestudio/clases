@@ -1,11 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+        <title>Home</title>
+        <link rel="stylesheet" href="contacto.css"
+    </head>
+    <body>
+        <div id="header">
+            <strong>Sammuel</strong>
+        </div>
+        <div id="menu">
+            <a class="current" href="../index.html">Biografia</a>
+            <a href="#">Galeria</a>
+            <a href="./contacto.html">Contacto</a>
+        </div>
+        <div id="content">
+            <h1>Contacto</h1>
+
+            <form>
+                
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="campo_nombre" />
+                </div>
     
-</body>
+                <div class="form-group">
+                    <label for="apellidos">Apellido</label>
+                    <input type="text" id="apellidos" name="campo_apellidos" />
+                </div>
+    
+                <div class="form-group">
+                    <label for="asunto">Asunto</label>
+                    <select  id="asunto" name="campo_apellidos">
+                        <option>Saludar</option>
+                        <option>Programar visita</option>
+                        <option>Devolución de Impuestos</option>
+                        <option>Jojo's Made In Haven</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="correo">Coreo electrónico</label>
+                    <input type="text" id="correo" name="campo_correo" />
+                </div>
+
+                <input type="submit" value="Enviar">
+
+            </form>
+
+        </div>
+        <div id="footer">
+            <p>Sabado 10 de Junio de 2023</p>
+        </div>
+    </body>
 </html>
