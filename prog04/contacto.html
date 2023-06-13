@@ -2,8 +2,9 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Contacto</title>
+        <title>Home</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
@@ -11,5 +12,49 @@
     </head>
     <body>
         
+        <div id="header">
+            <strong>Jaime</strong>
+        </div>
+        <div id="menu">
+            <a>Biografía</a>
+            <a href="galeria.html">Galería</a>
+            <a class="current" href="contacto.html">Contacto</a>
+        </div>
+        <div id="content">
+
+            <h1>Contacto</h1>
+            
+            <form>
+
+                <div class="form-group">
+                    <label for="nombre">Nombres</label>
+                    <input type="text" id="nombre" name="campo_nombre" />
+                </div>
+
+                <div class="form-group">
+                    <label for="apellidos">Apellidos</label>
+                    <input type="text" id="apellidos" name="campo_apellidos" />
+                </div>
+
+                <div class="form-group">
+                    <label for="asunto">Asunto</label>
+                    <select id="asunto" name="campo_asunto">
+                        <option>Saludar</option>
+                        <option>Programar visita</option>
+                        <option>Devolución de impuestos</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="correo">Correo electrónico</label>
+                    <input type="text" id="correo" name="campo_correo" />
+                </div>
+
+            </form>
+
+        </div>
+        <div id="footer">
+            <p>Sábado 3 de Junio de 2023</p>
+        </div>
     </body>
 </html>
