@@ -1,0 +1,97 @@
+body {
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+#header {
+    position: relative;
+    z-index: 1000;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    padding: 1rem;
+    height: 4rem;
+    font-size: 2rem;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.128);
+}
+#menu {
+    position: fixed;
+    top: 4rem;
+    bottom: 4rem;
+    width: 8rem;
+    padding: 4rem;
+    background-color: #ffffff;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.128);
+}
+#menu a {
+    display: block;
+    margin-top: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000000;
+}
+#menu a:first-child {
+    margin-top: 0;
+}
+#menu a.current {
+    font-weight: 600;
+}
+#content {
+    position: fixed;
+    top: 4rem;
+    bottom: 4rem;
+    right:1rem;
+    padding: 4rem;
+    overflow-y: scroll;
+}
+#footer {
+    position: fixed;
+    height: 4rem;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #333333;
+
+}
+#footer p {
+    font-size: 1rem;
+    color: #ffffff;
+    margin: 0;
+    text-align: center;
+}
+
+.galeria-item {
+    position: relative;
+}
+.galeria-item img{
+    width: 100%;
+}
+.galeria-item + .galeria-item {
+    margin-top: 4rem;
+}
+.galeria-item .descripcion {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+}
+.galeria-item .descripcion strong {
+    background-color: whitesmoke;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+}
+.galeria-item .descripcion p {
+    background-color: white;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    margin: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
