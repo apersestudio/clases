@@ -1,0 +1,112 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+#header {
+    position: relative;
+    z-index: 1000;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 1rem;
+    height: 4rem;
+    font-size: 2rem;
+    box-shadow:  0 0 1rem rgba(0,0,0,0.128);
+}
+
+#menu {
+    position: fixed;
+    top: 4rem;
+    bottom: 4rem;
+    width: 8rem;
+    padding: 4rem;
+    background-color: white;
+    box-shadow:  0 0 1rem rgba(0,0,0,0.128);
+}
+
+#menu a {
+    color: black;
+    margin-top: 1rem;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+}
+
+#menu a:first-child {
+    margin: 0;
+}
+
+#menu a.current {
+    font-weight: 600;
+}
+
+#content {
+    text-align: justify;
+    position: fixed;
+    top: 2rem;
+    bottom: 4rem;
+    left: 16rem;
+    right: 0;
+    padding: 4rem;
+    overflow-y: scroll;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    height: 4rem;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    left: 0;
+    right: 0;
+    background-color: #333333;
+}
+
+#footer p {
+    font-size: 1rem;
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+
+.image-galeri {
+    position: relative;
+}
+
+.image-galeri img {
+    width: 100%;
+}
+
+.image-galeri + .image-galeri {
+    margin-top: 2rem;
+}
+
+.image-galeri .descripcion {
+    left: 1rem;
+    position: absolute;
+    bottom: 1rem;
+}
+
+.image-galeri .descripcion strong {
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    width: 4rem;
+    height: 4rem;
+}
+
+.image-galeri .descripcion p {
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    width: 8rem;
+    height: 4rem;
+    margin: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}

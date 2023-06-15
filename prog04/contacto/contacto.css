@@ -93,3 +93,15 @@ body {
     border: none;
     padding: 1rem;
 }
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    height: 3rem;
+    width: 8rem;
+    margin-left: 16rem;
+}
